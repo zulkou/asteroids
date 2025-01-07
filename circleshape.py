@@ -23,5 +23,5 @@ class CircleShape(pygame.sprite.Sprite):
 
     def check_col(self, other):
         return (
-            self.position.distance_to(other.position) < self.radius 
+            self.position.distance_to(other.position) < (self.radius + other.radius)
         )

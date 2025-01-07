@@ -41,6 +41,11 @@ def main():
             if mc.check_col(astd) is True:
                 print("Game Over!")
                 sys.exit()
+        for sht in shots:
+            for astd in asteroids:
+                if astd.check_col(sht):
+                    astd.split()
+                    sht.kill()
         for updt in updateable:
             updt.update(dt)
         for drw in drawable:
