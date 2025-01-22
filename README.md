@@ -1,6 +1,6 @@
 # asteroids
 ## Description
-An [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)) game clone using python. This project is one of the guided projects in [boot.dev](https://www.boot.dev/lessons/5be3e3bd-efb5-4664-a9e9-7111be783271)
+An [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)) game clone using python. This project is one of the guided projects in [boot.dev](https://www.boot.dev/courses/build-asteroids-python)
 
 ## Demo
 ![demo](https://github.com/user-attachments/assets/674da534-cb97-4daf-8d36-2b8423dbdc1a)
