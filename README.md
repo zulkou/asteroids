@@ -12,10 +12,10 @@ git clone https://github.com/zulkou/asteroids.git
 cd asteoids
 pip install -r requirements.txt
 ```
-
+Or if you want to install the requirement inside virtual environtment, you need to activate the virtual environtment before executing `requirements.txt`.
 ## How to Play The Game
 To run it, run this shell command:
 ```
-python3 main.py
+python3 -m main
 ```
 use `A`, `W`, `S`, `D` to move, and `space` to shoot. Enjoy!
